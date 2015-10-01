@@ -1,7 +1,7 @@
-(function(){
+(function($){
 	'use strict';
 	
-	jQuery.fn.extend({
+	$.fn.extend({
 		//Use to check if an element exists 
 		exists : function(){
 			return this.length > 0;
@@ -18,4 +18,4 @@
 			return returnObj;
 		}
 	});
-}());
+}(jQuery));
